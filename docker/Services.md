@@ -22,7 +22,7 @@ Follow the instructions below to install Compose on Mac,Windows, Windows Server 
 
 #### Upgrading
 
-If you're upgrading from Compose 1.2 or earlier, remove or mograte your existing containers after upgrading Compose.This is because, as of version 1.3, Compose uses Docker labels to keep track of containers, and your containers need to be recreated to add the labels.
+If you're upgrading from Compose 1.2 or earlier, remove or migrate your existing containers after upgrading Compose.This is because, as of version 1.3, Compose uses Docker labels to keep track of containers, and your containers need to be recreated to add the labels.
 
 If Compose detects containers that were created without labels, it refuses to run so that you dont end up with two sets of them.If you want to keep using your existing containers(for example, because the have data volumes you want to preserve),you can user Compose 1.5.x to migrate them with the following command:
 
