@@ -22,7 +22,25 @@
   - **文件拥有者可具备的权限**
   - **加入此用户组的账号的权限**
   - **非本人且没有加入本用户组的其他账号的权限**
-  - [r]可读
-  - [w]可写
-  - [x]可执行
-  - [-]无权限
+  - [r]可读[4]
+  - [w]可写[2]
+  - [x]可执行[1]
+  - [-]无权限[0]
+
+#### 常用命令
+
+- chgrp :修改用户组
+- chown: 修改拥有者
+- chmod:修改权限
+
+``` 
+chgrp user mybook.txt　##将用户组切换为user(必须要先存在)
+chown user mybook.txt  ##将拥有者修改为user
+chown user1.user2 mybook.txt ##将拥有者修改为user1，用户组切换为user2
+chown .user2 mybook.txt  ##将用户组切换为user2
+
+chomod 777 mybook.txt ##三个数字分别代表拥有者权限、组内成员权限和其他人权限，这三个数字又是三个权限数字之和(4可读，２可写，１可执行，0表无)，因此，777表示这个文件可被任何人读取、修改、执行。
+
+chmod u+r mybook.txt  ##给user加上可读的权限,第一个参数可以为u,g,o,a(u为user,g为group,o为others,a为所有) 第二个参数可以为 + - =　　第三个参数为 r w x
+```
+
