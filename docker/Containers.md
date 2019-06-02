@@ -79,7 +79,6 @@ CMD ["python", "app.py"]
          app.run(host='0.0.0.0', port=80)
      ```
 
-     PS: the first dns address is yours,the second one is Google's.
 
 # Build an app
 
