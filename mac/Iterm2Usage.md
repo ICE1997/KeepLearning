@@ -1,4 +1,4 @@
-#Iterm2使用记录
+## Iterm2使用记录
 
 ## 基本软件安装（前提已安装brew）
 
@@ -18,7 +18,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ## Iterm2美化
 
-###更改配色方案
+### 更改配色方案
 
 ```bash
 curl -O https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/master/material-design-colors.itermcolors ##下载material配色方案
