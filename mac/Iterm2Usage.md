@@ -1,4 +1,4 @@
-## Iterm2使用记录
+# Iterm2使用记录
 
 ## 基本软件安装（前提已安装brew）
 
@@ -52,8 +52,6 @@ git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh
 ```bash
 brew install zsh-syntax-highlighting ##安装zsh-syntax-highlighting
 ```
-
-
 
 ```bash
 source /xxx/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ##添加在.zhsrc最后一行
