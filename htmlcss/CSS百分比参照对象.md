@@ -4,7 +4,7 @@
 
 `boder-radius`参照***元素本身***
 
-`background-position`参照***由放置背景图的区域尺寸，减去背景图的尺寸得到***可以为负值
+`background-position`参照***由放置背景图的区域尺寸,减去背景图的尺寸得到***,可以为负值
 
 ![pic](../assets/09fbbe7fd03a961360f6c9c8801e4e2f_articlex.png)
 
