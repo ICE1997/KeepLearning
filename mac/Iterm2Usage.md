@@ -13,7 +13,7 @@ brew install zsh ##安装zsh
 ## zsh配置文件 oh-my-zsh安装
 
 ```bash
-$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" ##下载并安装oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" ##下载并安装oh-my-zsh
 ```
 
 ## Iterm2美化
